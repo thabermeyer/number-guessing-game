@@ -1,0 +1,65 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit; }
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 62.5%; }
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  line-height: 1.6; }
+
+.container {
+  max-width: 60rem;
+  margin: 10rem auto;
+  padding: 2rem;
+  background-color: #fff; }
+
+.header {
+  width: 100%;
+  padding: 3rem;
+  font-size: 3rem;
+  color: #fff;
+  background-color: #f39c12;
+  margin-bottom: 3rem; }
+
+.game input[type=number]::-webkit-inner-spin-button,
+.game input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0; }
+
+.game input[type=number] {
+  -moz-appearance: textfield; }
+
+.game__instructions {
+  font-size: 3rem;
+  margin-bottom: 3rem; }
+
+.game__input {
+  font-size: 2rem;
+  padding: 1.5rem 1.2rem;
+  margin-right: 5rem;
+  margin-left: 3rem;
+  width: 5rem; }
+  .game__input:focus {
+    outline: none; }
+
+.game__btn {
+  font-family: inherit;
+  font-size: 2rem;
+  width: 30rem;
+  padding: 1.5rem 1.2rem;
+  border: none;
+  background-color: #f1c40f;
+  -webkit-transition: all .2s;
+  -o-transition: all .2s;
+  transition: all .2s; }
+  .game__btn:hover {
+    background-color: #f39c12; }

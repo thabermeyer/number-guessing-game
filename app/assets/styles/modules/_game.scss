@@ -1,0 +1,58 @@
+.game {
+
+    input[type=number]::-webkit-inner-spin-button, 
+    input[type=number]::-webkit-outer-spin-button { 
+        -webkit-appearance: none;
+        margin: 0; 
+    }
+
+    input[type=number] {
+        -moz-appearance: textfield;
+    }
+
+    &__instructions {
+
+        font-size: 3rem;
+        margin-bottom: 3rem;
+
+    }
+
+    &__input {
+
+        font-size: 2rem;
+        padding: 1.5rem 1.2rem;
+        margin-right: 5rem;
+        margin-left: 3rem;
+
+        width: 5rem;
+
+        &:focus {
+
+            outline: none;
+
+        }
+
+    }
+
+    &__btn {
+
+        font-family: inherit;
+        font-size: 2rem;
+
+        width: 30rem;
+        padding: 1.5rem 1.2rem;
+        border: none;
+
+        background-color: $color-secondary;
+
+        transition: all .2s;
+
+        &:hover {
+
+            background-color: $color-primary;
+
+        }
+
+    }
+
+}
