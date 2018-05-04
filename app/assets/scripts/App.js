@@ -45,6 +45,8 @@ guessBtn.addEventListener('click', function() {
 
     } else if (guess === winningNum) {
 
+        guessInput.value = '';
+
         gameOver(true, `That is correct!`)
 
     } else {
@@ -60,6 +62,8 @@ guessBtn.addEventListener('click', function() {
         } else {
 
             guessInput.disabled = true;
+
+            guessInput.value = '';
 
             gameOver(false, `Sorry - the correct answer was ${winningNum}. Try playing again!`);
 
