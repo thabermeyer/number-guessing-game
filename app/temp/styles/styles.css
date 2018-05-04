@@ -63,3 +63,7 @@ body {
   transition: all .2s; }
   .game__btn:hover {
     background-color: #f39c12; }
+
+.game__message {
+  font-size: 2rem;
+  margin-top: 3rem; }
