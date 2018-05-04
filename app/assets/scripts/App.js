@@ -43,11 +43,7 @@ guessBtn.addEventListener('click', function() {
 
         setMessage(`Please enter a number between ${min} and ${max}`, 'red');
 
-    }
-
-    // Check if winning number
-
-    if (guess === winningNum) {
+    } else if (guess === winningNum) {
 
         gameOver(true, `That is correct!`)
 

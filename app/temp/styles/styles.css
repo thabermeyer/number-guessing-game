@@ -19,8 +19,7 @@ body {
 .container {
   max-width: 60rem;
   margin: 10rem auto;
-  padding: 2rem;
-  background-color: #fff; }
+  padding: 2rem; }
 
 .header {
   width: 100%;
@@ -30,40 +29,52 @@ body {
   background-color: #f39c12;
   margin-bottom: 3rem; }
 
-.game input[type=number]::-webkit-inner-spin-button,
-.game input[type=number]::-webkit-outer-spin-button {
-  -webkit-appearance: none;
-  margin: 0; }
-
-.game input[type=number] {
-  -moz-appearance: textfield; }
-
-.game__instructions {
-  font-size: 3rem;
-  margin-bottom: 3rem; }
-
-.game__input {
-  font-size: 2rem;
-  padding: 1.5rem 1.2rem;
-  margin-right: 5rem;
-  margin-left: 3rem;
-  width: 5rem; }
-  .game__input:focus {
-    outline: none; }
-
-.game__btn {
-  font-family: inherit;
-  font-size: 2rem;
-  width: 30rem;
-  padding: 1.5rem 1.2rem;
-  border: none;
-  background-color: #f1c40f;
-  -webkit-transition: all .2s;
-  -o-transition: all .2s;
-  transition: all .2s; }
-  .game__btn:hover {
-    background-color: #f39c12; }
-
-.game__message {
-  font-size: 2rem;
-  margin-top: 3rem; }
+.game {
+  height: 100%;
+  text-align: center;
+  padding: 0 2rem; }
+  .game input[type=number]::-webkit-inner-spin-button,
+  .game input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0; }
+  .game input[type=number] {
+    -moz-appearance: textfield; }
+  .game__instructions {
+    font-size: 3rem;
+    margin-bottom: 3rem; }
+  .game__input-box {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .game__input {
+    font-size: 2rem;
+    padding: 1.5rem 1.2rem;
+    width: 7rem;
+    margin-bottom: 3rem; }
+    .game__input:focus {
+      outline: none; }
+  .game__btn {
+    font-family: inherit;
+    font-size: 2rem;
+    width: 30rem;
+    padding: 1.5rem 1.2rem;
+    border: none;
+    background-color: #f1c40f;
+    -webkit-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s; }
+    .game__btn:hover {
+      background-color: #f39c12; }
+  .game__message {
+    font-size: 2rem;
+    margin-top: 3rem; }
